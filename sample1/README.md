@@ -8,10 +8,6 @@
 
 ![GIF动态效果图](https://upload-images.jianshu.io/upload_images/1819713-518ef42c3301b2fa.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/420/format/webp)
 
-<!--**bitcoin按钮样式GitHub地址：**[donate-page](https://github.com/Kaiyuan/donate-page)
-
-**bitcoin按钮样式在线演示：**[Example](https://kaiyuan.github.io/donate-page/simple/)-->
-
 #### 设置PayPal账户
 
 ```
@@ -22,14 +18,14 @@
 > 针对不同项目可以直接在 URL 加入项目参数和金额，不过仅仅作用于 PayPal 方式
 
 ```
-https://cdn.rawgit.com/TinyJay/donate-page/6fe4f885/simple/?item='donate-page&price=2'
+https://guoyanjun.top/donate-page/sample1/index.html?item='donate-page&price=2'
 ```
 
 #### iframe引入
 > 使用 `iframe` 嵌入页面的代码，高度至少 `240px`，宽度至少 `310px`！
 
 ```
-<iframe src="https://rawcdn.githack.com/TinyJay/donate-page/51aaf216f048b8e6d5ce01443a32be930b91869d/simple/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
+<iframe src="https://guoyanjun.top/donate-page/sample1/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"></iframe>
 ```
 
 ### License
