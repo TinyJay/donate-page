@@ -341,7 +341,9 @@
             white-space: normal;
             -ms-flex: 1;
             flex: 1;
-            -webkit-overflow-scrolling: touch
+            -webkit-overflow-scrolling: touch;
+            text-align: left;
+            word-break: break-all;
         }
 
         .code-snippet__fix code {
@@ -367,7 +369,7 @@
             <div class="weui-c-content">
                 <h2 class="weui-c-title">一款捐赠按钮样式，包含PayPal、支付宝、微信，可使用iframe直接嵌入，方便简洁。</h2>
                 <div class="weui-c-meta">
-                    <span class="weui-c-nickname"><a href="javascript:;">一月筠</a></span>
+                    <span class="weui-c-nickname"><a href="https://guoyanjun.top">一月筠</a></span>
                     <em class="weui-c-nickname">2012-09-01 10:10</em>
                 </div>
                 <div class="weui-c-article">
@@ -376,7 +378,7 @@
                     <section class="code-snippet__fix code-snippet__js">
                         <pre class="code-snippet__js" data-lang="python">
                             <span class="code-snippet__meta">
-                                &lt;iframe src="https://rawcdn.githack.com/TinyJay/donate-page/51aaf216f048b8e6d5ce01443a32be930b91869d/simple/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"> &lt;/iframe&gt;
+                                &lt;iframe src="https://guoyanjun.top/donate-page/sample1/index.html" style="overflow-x:hidden;overflow-y:hidden; border:0xp none #fff; min-height:240px; width:100%;"  frameborder="0" scrolling="no"> &lt;/iframe&gt;
                             </span>
                         </pre>
                     </section>
@@ -392,7 +394,7 @@
                     <h4>针对不同项目可以直接在 URL 加入项目参数和金额，不过仅仅作用于 PayPal 方式</h4>
                     <section class="code-snippet__fix code-snippet__js">
                         <pre class="code-snippet__js" data-lang="python">
-                            <span class="code-snippet__meta">https://cdn.rawgit.com/TinyJay/donate-page/6fe4f885/simple/?item='donate-page&price=2'</span>
+                            <span class="code-snippet__meta">https://guoyanjun.top/donate-page/sample2/index.html?item=donate-page&price=888'</span>
                         </pre>
                     </section>
                 </div>
@@ -406,9 +408,7 @@
                             <div role="option" class="weui-cell weui-cell_example">
                                 <div class="weui-cell__hd">
                                     <!-- <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAMAAABgZ9sFAAAAVFBMVEXx8fHMzMzr6+vn5+fv7+/t7e3d3d2+vr7W1tbHx8eysrKdnZ3p6enk5OTR0dG7u7u3t7ejo6PY2Njh4eHf39/T09PExMSvr6+goKCqqqqnp6e4uLgcLY/OAAAAnklEQVRIx+3RSRLDIAxE0QYhAbGZPNu5/z0zrXHiqiz5W72FqhqtVuuXAl3iOV7iPV/iSsAqZa9BS7YOmMXnNNX4TWGxRMn3R6SxRNgy0bzXOW8EBO8SAClsPdB3psqlvG+Lw7ONXg/pTld52BjgSSkA3PV2OOemjIDcZQWgVvONw60q7sIpR38EnHPSMDQ4MjDjLPozhAkGrVbr/z0ANjAF4AcbXmYAAAAASUVORK5CYII=" alt="" style="border-radius: 10px; width: 20px; margin-right: 16px; display: block;"> -->
-                                    <img src="https://upload.jianshu.io/users/upload_avatars/1819713/e3c3bba7fe42.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"
-                                        alt=""
-                                        style="border-radius: 10px; width: 20px; margin-right: 16px; display: block;">
+                                    <img src="https://avatars.githubusercontent.com/u/13490798?s=320" alt="" style="border-radius: 10px; width: 20px; margin-right: 16px; display: block;">
                                 </div>
                                 <div class="weui-cell__bd">
                                     <p>翻转卡片</p>
@@ -421,10 +421,8 @@
                     <div class="weui-cells">
                         <a class="weui-cell_access" href="./sample2/index.html">
                             <div role="option" class="weui-cell weui-cell_example">
-                                <div class="weui-cell__hd"><img
-                                        src="https://upload.jianshu.io/users/upload_avatars/1819713/e3c3bba7fe42.jpg?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240"
-                                        alt=""
-                                        style="border-radius: 10px; width: 20px; margin-right: 16px; display: block;">
+                                <div class="weui-cell__hd">
+                                    <img src="https://avatars.githubusercontent.com/u/13490798?s=320" alt="" style="border-radius: 10px; width: 20px; margin-right: 16px; display: block;">
                                 </div>
                                 <div class="weui-cell__bd">
                                     <p>打赏咖啡</p>
@@ -435,8 +433,8 @@
                     </div>
             </div>
             <div style="margin: 20px 10% 0 10%;">
-                <img style="width: 100% !important; height: auto !important;" src="https://camo.githubusercontent.com/8733be05614653b02362e7d1fec1a41e720a2c29b76f479ed163b52490e94c81/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313831393731332d353138656634326333333031623266612e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f3432302f666f726d61742f77656270">
-                <img style="width: 100% !important; height: auto !important;" src="https://camo.githubusercontent.com/c3b9bf1690f1dab4e2796bda1df0dd93d6d21228bda6aebcfaa6c41bc81deecf/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313831393731332d653739613136653262666639303764342e4749463f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970">
+                <img style="width: 45% !important; height: auto !important;" src="https://camo.githubusercontent.com/8733be05614653b02362e7d1fec1a41e720a2c29b76f479ed163b52490e94c81/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313831393731332d353138656634326333333031623266612e6769663f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970253743696d61676556696577322f322f772f3432302f666f726d61742f77656270">
+                <img style="width: 45% !important; height: auto !important;" src="https://camo.githubusercontent.com/c3b9bf1690f1dab4e2796bda1df0dd93d6d21228bda6aebcfaa6c41bc81deecf/68747470733a2f2f75706c6f61642d696d616765732e6a69616e7368752e696f2f75706c6f61645f696d616765732f313831393731332d653739613136653262666639303764342e4749463f696d6167654d6f6772322f6175746f2d6f7269656e742f7374726970">
             </div>
             <div class="weui-c-tools">
                 <a href="https://guoyanjun.top">一月筠</a>
